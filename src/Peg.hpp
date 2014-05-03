@@ -44,10 +44,13 @@ public:
 	//getters
 	map<PegPosition, Peg> getAdjacentPegs();
 	PegState getState();
+	int getAdjacentQty();
 	
 	//setters
 	void setState(PegState state);
 	void addAdjacentPeg(PegPosition pos, Peg &peg);
+
+
 
 	static string getPositionName(PegPosition pos)
 	{

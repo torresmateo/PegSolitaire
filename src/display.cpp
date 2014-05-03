@@ -3,7 +3,6 @@
 
 Display::Display(int width, int height, const std::string& title)
 {
-	std::cout << "constructor" << std::endl;
 	SDL_Init(SDL_INIT_EVERYTHING);
 	
 	SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
